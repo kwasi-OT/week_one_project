@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-function Column() {
-  return (
-    <div>
-      
-    </div>
-  )
+function Column({image, title, text, button}) {
+    return (
+        <div>
+            <div>{image}</div>
+            <div><h1>{title}</h1></div>
+            <div><p>{text}</p></div>
+            <div>{button}</div>
+        </div>
+    );
 }
 
-export default Column
+export default Column;
