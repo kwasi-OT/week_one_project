@@ -6,7 +6,7 @@
 
 .myApp {
   width: 100%;
-  height: 150vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,23 +16,21 @@
 .card {
   width: 90%;
   height: fit-content;
-  margin: 0 auto;
+  margin: 5rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 3rem; */
 }
 
 .car {
-  padding: 2rem 2rem;
-  height: fit-content;  
+  padding: 2.5rem 2.5rem;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .sedan {
@@ -40,11 +38,29 @@
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
+.suvs {
+  background-color: #008080;
+}
+
 .luxury {
   background-color: #004d39;
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.suvs {
-  background-color: #008080;
+.column h2, .column p {
+  color: #fff;
+}
+
+.column h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.2rem;
+}
+
+.column .button {
+  width: fit-content;
+  text-align: center;
+  background-color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 1.5rem;
 }
