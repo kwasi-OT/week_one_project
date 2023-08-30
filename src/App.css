@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.myApp {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 3rem; */
+}
+
+.car {
+  padding: 2rem 2rem;
+  height: fit-content;  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sedan {
+  background-color: #ff9933;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.luxury {
+  background-color: #004d39;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.suvs {
+  background-color: #008080;
+}
