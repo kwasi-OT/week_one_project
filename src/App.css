@@ -54,7 +54,7 @@
 .column h2 {
   font-size: 2rem;
   font-weight: 500;
-  letter-spacing: -0.2rem;
+  letter-spacing: -0.15rem;
 }
 
 .column .button {
@@ -63,4 +63,81 @@
   background-color: #fff;
   padding: 0.8rem 2rem;
   border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.column .button:hover {
+  background: none;
+  border: 0.031rem solid #fff;
+  color: #fff;
+}
+
+.sedan .cta {
+  color: #ff9933;
+}
+
+/* desktop settings */
+@media (min-width: 1102px) {
+  .card {
+    width: 95%;
+    height: fit-content;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 4px 15px 7px rgba(219,213,213,0.75);
+    -webkit-box-shadow: -1px 4px 15px 7px rgba(219,213,213,0.75);
+    -moz-box-shadow: -1px 4px 15px 7px rgba(219,213,213,0.75);
+    padding: 8rem 10rem;
+    border-radius: 0.5rem;
+  }
+
+  .car {
+    padding: 2.5rem 2.5rem;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .sedan {
+    background-color: #ff9933;
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  
+  .luxury {
+    background-color: #004d39;
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  .column .button {
+    width: fit-content;
+    text-align: center;
+    background-color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
+}
+
+/* tablet settings */
+@media (min-width: 760px) and (max-width: 1101px) {
+  .card {
+    width: 95%;
+    height: fit-content;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 4px 15px 7px rgba(219,213,213,0.75);
+    -webkit-box-shadow: -1px 4px 15px 7px rgba(219,213,213,0.75);
+    -moz-box-shadow: -1px 4px 15px 7px rgba(219,213,213,0.75);
+    padding: 8rem 3rem;
+    border-radius: 0.5rem;
+  }
 }

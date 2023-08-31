@@ -18,13 +18,13 @@ function Card() {
     return (
         <div className='card'>
             <div className='car sedan'>
-                <Column  image = {sedansIcon}  title = "SEDANS" text = {sedanText} button = "Learn More"/>
+                <Column  image = {sedansIcon}  title = "SEDANS" text = {sedanText} cta = "Learn More"/>
             </div>
             <div className='car suvs'>
-                <Column  image = {suvsIcon}  title = "SUVS" text = {suvsText} button = "Learn More"/>
+                <Column  image = {suvsIcon}  title = "SUVS" text = {suvsText} cta = "Learn More"/>
             </div>
             <div className='car luxury'>
-                <Column  image = {luxuryIcon}  title = "LUXURY" text = {luxuryText} button = "Learn More"/>
+                <Column  image = {luxuryIcon}  title = "LUXURY" text = {luxuryText} cta = "Learn More"/>
             </div>
         </div>
     );
